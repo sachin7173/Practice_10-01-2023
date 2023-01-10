@@ -19,5 +19,8 @@ public static void openBrowser() throws IOException, InterruptedException {
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	driver.get(UtilityClass.getPropertyFileData("url"));
 	Thread.sleep(2000);
+
+
+
 }
 }
